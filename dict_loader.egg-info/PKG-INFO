@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dict-loader
+Version: 0.1.0
+Summary: Dict manipulations
+Author: Savateykin Yaroslav
+Author-email: yaroslavsavateykin@yandex.ru
+Requires-Python: >=3.8
