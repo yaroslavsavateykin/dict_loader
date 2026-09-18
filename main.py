@@ -1,4 +1,5 @@
-from dictloader import DictLoader
+import json
+from dict_loader import DictLoader
 import yaml
 
 a = (
@@ -13,5 +14,9 @@ b = (
     .to_obs_dict()
     .dict
 )
+
+print(json.dumps({**a, **b}))
+
+print()
 
 print(yaml.dump({**a, **b}))
